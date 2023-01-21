@@ -8,4 +8,14 @@ public class Validator {
             System.out.println("Paczka " + parcel.toString() + "ma złe wymiary");
         }
     }
+
+    public void isWeightValid(Parcel parcel){
+        if (parcel.getWeight() <= 30 && !parcel.isExpress()){
+            System.out.println("Paczka" + parcel + "jest dobrej wagi i nie jest ekspresowa");
+        } else if (parcel.getWeight() <= 15 && parcel.isExpress()) {
+            System.out.println("Paczka" + parcel + "jest dobrej wagi i jest ekspresowa");
+        }else {
+            System.out.println("Paczka" + parcel + "jest złej wagi");
+        }
+    }
 }
