@@ -1,6 +1,6 @@
-package Excercise7;
+package Exercise7;
 
-import Excercise7.Guns.Gun;
+import Exercise7.Guns.Gun;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Excercise7.Guns;
+package Exercise7.Guns;
 
 import java.util.ArrayList;
 import java.util.List;
